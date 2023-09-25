@@ -1,0 +1,262 @@
+2023-09-06 21:35:07,845 - Main - INFO : Starting the main program...
+2023-09-06 21:35:07,845 - Main - INFO : Loading configurations.
+2023-09-06 21:35:07,846 - Main - INFO : Configurations Loaded
+2023-09-06 21:35:07,847 - Producer - INFO : Starting the producer...
+2023-09-06 21:35:09,961 - Data Preprocessing - INFO : Processing data completed. Data is ready
+2023-09-06 21:35:10,064 - Producer - INFO : A message to the Kafka topic produced.
+2023-09-06 21:35:13,519 - Producer - INFO : Message delivered to 3D_topic [2]
+2023-09-06 21:35:13,519 - Producer - INFO : Message delivered to 3D_topic [2]
+2023-09-06 21:35:13,521 - Producer - INFO : Producer script execution finished.
+2023-09-06 21:35:13,521 - Producer - INFO : Producer script execution finished.
+2023-09-06 21:35:13,534 - Consumer - INFO : Starting the consumer...
+2023-09-06 21:35:13,601 - Consumer - INFO : Consumer instance created...
+2023-09-06 21:35:19,447 - Consumer - INFO : Message received.
+2023-09-06 21:35:19,484 - Consumer - INFO : DataFrame created.
+2023-09-06 21:35:19,486 - Model - INFO : Starting predicting...
+2023-09-06 21:35:23,537 - Model - INFO : Model fitted.
+2023-09-06 21:35:58,077 - Model - INFO : Report performance metrics
+2023-09-06 21:35:58,077 - Model - INFO : MSE: 0.003
+2023-09-06 21:35:58,079 - Model - INFO : MAE: 0.037
+2023-09-06 21:35:58,079 - Model - INFO : RMSE: 0.053
+2023-09-06 21:35:58,079 - Model - INFO : MAPE: 0.027%
+2023-09-06 21:35:58,365 - Model - INFO : Prediction completed.
+2023-09-06 21:35:58,367 - Consumer - INFO : Message acknowledged.
+2023-09-06 21:35:58,973 - Consumer - INFO : Consumer script execution finished.
+2023-09-06 21:35:58,977 - Send email - INFO : Starting sendMail...
+2023-09-06 21:35:58,991 - Send email - INFO : Attached image: C:/Users/sihah/Desktop/3D/images/close_values_with_prediction.png
+2023-09-06 21:36:03,730 - Send email - INFO : Email sent successfully!
+2023-09-06 21:36:03,731 - Send email - INFO : Email sent from test.2023@gmail.com, to email@gmail.com
+2023-09-06 21:36:03,731 - Send email - INFO : Email script execution finished.
+2023-09-06 21:36:03,733 - Main - INFO : Main script execution finished.
+2023-09-06 21:36:03,733 - Main - INFO : Have a great day!
+2023-09-12 11:54:38,322 - Main - INFO : Starting the main program...
+2023-09-12 11:54:38,323 - Main - INFO : Loading configurations.
+2023-09-12 11:54:38,324 - Main - INFO : Configurations Loaded
+2023-09-12 11:54:38,324 - Producer - INFO : Starting the producer...
+2023-09-12 11:54:39,607 - Data Preprocessing - INFO : Processing data completed. Data is ready
+2023-09-12 11:54:39,648 - Producer - INFO : A message to the Kafka topic produced.
+2023-09-12 11:54:47,234 - Producer - INFO : Message delivered to topic_0 [2]
+2023-09-12 11:54:47,234 - Producer - INFO : Message delivered to topic_0 [2]
+2023-09-12 11:54:47,235 - Producer - INFO : Producer script execution finished.
+2023-09-12 11:54:47,235 - Producer - INFO : Producer script execution finished.
+2023-09-12 11:54:47,239 - Consumer - INFO : Starting the consumer...
+2023-09-12 11:54:47,259 - Consumer - INFO : Consumer instance created...
+2023-09-12 11:54:54,374 - Consumer - INFO : Message received.
+2023-09-12 11:54:54,471 - Consumer - INFO : DataFrame created.
+2023-09-12 11:54:54,472 - Model - INFO : Starting predicting...
+2023-09-12 11:55:00,253 - Model - INFO : Model fitted.
+2023-09-12 11:56:04,813 - Model - INFO : Report performance metrics
+2023-09-12 11:56:04,814 - Model - INFO : MSE: 0.003
+2023-09-12 11:56:04,814 - Model - INFO : MAE: 0.036
+2023-09-12 11:56:04,815 - Model - INFO : RMSE: 0.052
+2023-09-12 11:56:04,815 - Model - INFO : MAPE: 0.027%
+2023-09-12 11:56:05,696 - Model - INFO : Prediction completed.
+2023-09-12 11:56:05,700 - Consumer - INFO : Message acknowledged.
+2023-09-12 11:56:07,294 - Consumer - INFO : Consumer script execution finished.
+2023-09-12 11:56:07,296 - Send email - INFO : Starting sendMail...
+2023-09-12 11:56:07,296 - Send email - WARNING : Image file not found at path: C:/Users/pc/Desktop/ILHAM_NACHOUR_ENSAH_realtime_2023_3dsf_communimages/close_values_with_prediction.png
+2023-09-12 11:56:13,089 - Send email - ERROR : Email could not be sent. Error: (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials m15-20020a05600c4f4f00b00403bbe69629sm1595393wmq.31 - gsmtp')
+2023-09-12 11:56:13,090 - Send email - INFO : Email script execution finished.
+2023-09-12 11:56:13,091 - Main - INFO : Main script execution finished.
+2023-09-12 11:56:13,091 - Main - INFO : Have a great day!
+2023-09-12 12:01:31,930 - Main - INFO : Starting the main program...
+2023-09-12 12:01:31,931 - Main - INFO : Loading configurations.
+2023-09-12 12:01:31,932 - Main - INFO : Configurations Loaded
+2023-09-12 12:01:31,933 - Producer - INFO : Starting the producer...
+2023-09-12 12:01:33,108 - Data Preprocessing - INFO : Processing data completed. Data is ready
+2023-09-12 12:01:33,151 - Producer - INFO : A message to the Kafka topic produced.
+2023-09-12 12:01:36,648 - Producer - INFO : Message delivered to topic_0 [2]
+2023-09-12 12:01:36,648 - Producer - INFO : Message delivered to topic_0 [2]
+2023-09-12 12:01:36,649 - Producer - INFO : Producer script execution finished.
+2023-09-12 12:01:36,649 - Producer - INFO : Producer script execution finished.
+2023-09-12 12:01:36,653 - Consumer - INFO : Starting the consumer...
+2023-09-12 12:01:36,677 - Consumer - INFO : Consumer instance created...
+2023-09-12 12:01:41,828 - Consumer - INFO : Message received.
+2023-09-12 12:01:41,902 - Consumer - INFO : DataFrame created.
+2023-09-12 12:01:41,904 - Model - INFO : Starting predicting...
+2023-09-12 12:01:44,687 - Model - INFO : Model fitted.
+2023-09-12 12:02:36,288 - Model - INFO : Report performance metrics
+2023-09-12 12:02:36,292 - Model - INFO : MSE: 0.003
+2023-09-12 12:02:36,294 - Model - INFO : MAE: 0.036
+2023-09-12 12:02:36,295 - Model - INFO : RMSE: 0.052
+2023-09-12 12:02:36,298 - Model - INFO : MAPE: 0.027%
+2023-09-12 12:02:37,437 - Model - INFO : Prediction completed.
+2023-09-12 12:02:37,444 - Consumer - INFO : Message acknowledged.
+2023-09-12 12:02:37,916 - Consumer - INFO : Consumer script execution finished.
+2023-09-12 12:02:37,918 - Send email - INFO : Starting sendMail...
+2023-09-12 12:02:37,919 - Send email - WARNING : Image file not found at path: C:/Users/pc/Desktop/ILHAM_NACHOUR_ENSAH_realtime_2023_3dsf_communimages/close_values_with_prediction.png
+2023-09-12 12:02:43,636 - Send email - ERROR : Email could not be sent. Error: (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials a2-20020a05600c224200b003fed8e12d62sm12691418wmm.27 - gsmtp')
+2023-09-12 12:02:43,637 - Send email - INFO : Email script execution finished.
+2023-09-12 12:02:43,638 - Main - INFO : Main script execution finished.
+2023-09-12 12:02:43,638 - Main - INFO : Have a great day!
+2023-09-12 12:08:08,142 - Main - INFO : Starting the main program...
+2023-09-12 12:08:08,142 - Main - INFO : Loading configurations.
+2023-09-12 12:08:08,143 - Main - INFO : Configurations Loaded
+2023-09-12 12:08:08,144 - Producer - INFO : Starting the producer...
+2023-09-12 12:08:09,354 - Data Preprocessing - INFO : Processing data completed. Data is ready
+2023-09-12 12:08:09,398 - Producer - INFO : A message to the Kafka topic produced.
+2023-09-12 12:08:13,881 - Producer - INFO : Message delivered to topic_0 [2]
+2023-09-12 12:08:13,881 - Producer - INFO : Message delivered to topic_0 [2]
+2023-09-12 12:08:13,881 - Producer - INFO : Producer script execution finished.
+2023-09-12 12:08:13,881 - Producer - INFO : Producer script execution finished.
+2023-09-12 12:08:13,885 - Consumer - INFO : Starting the consumer...
+2023-09-12 12:08:13,913 - Consumer - INFO : Consumer instance created...
+2023-09-12 12:08:20,133 - Consumer - INFO : Message received.
+2023-09-12 12:08:20,208 - Consumer - INFO : DataFrame created.
+2023-09-12 12:08:20,209 - Model - INFO : Starting predicting...
+2023-09-12 12:08:23,907 - Model - INFO : Model fitted.
+2023-09-12 12:09:09,094 - Model - INFO : Report performance metrics
+2023-09-12 12:09:09,095 - Model - INFO : MSE: 0.003
+2023-09-12 12:09:09,095 - Model - INFO : MAE: 0.036
+2023-09-12 12:09:09,095 - Model - INFO : RMSE: 0.052
+2023-09-12 12:09:09,096 - Model - INFO : MAPE: 0.027%
+2023-09-12 12:09:09,513 - Model - INFO : Prediction completed.
+2023-09-12 12:09:09,515 - Consumer - INFO : Message acknowledged.
+2023-09-12 12:09:09,985 - Consumer - INFO : Consumer script execution finished.
+2023-09-12 12:09:09,986 - Send email - INFO : Starting sendMail...
+2023-09-12 12:09:09,988 - Send email - INFO : Attached image: C:/Users/pc/Desktop/ILHAM_NACHOUR_ENSAH_realtime_2023_3dsf_commun/images/close_values_with_prediction.png
+2023-09-12 12:09:11,060 - Send email - ERROR : Email could not be sent. Error: (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials o7-20020a05600c378700b003fe4548188bsm15785834wmr.48 - gsmtp')
+2023-09-12 12:09:11,061 - Send email - INFO : Email script execution finished.
+2023-09-12 12:09:11,061 - Main - INFO : Main script execution finished.
+2023-09-12 12:09:11,062 - Main - INFO : Have a great day!
+2023-09-12 12:26:53,801 - Main - INFO : Starting the main program...
+2023-09-12 12:26:53,802 - Main - INFO : Loading configurations.
+2023-09-12 12:26:53,803 - Main - INFO : Configurations Loaded
+2023-09-12 12:26:53,804 - Producer - INFO : Starting the producer...
+2023-09-12 12:26:55,052 - Data Preprocessing - INFO : Processing data completed. Data is ready
+2023-09-12 12:26:55,140 - Producer - INFO : A message to the Kafka topic produced.
+2023-09-12 12:27:00,500 - Producer - INFO : Message delivered to topic_0 [2]
+2023-09-12 12:27:00,500 - Producer - INFO : Message delivered to topic_0 [2]
+2023-09-12 12:27:00,501 - Producer - INFO : Producer script execution finished.
+2023-09-12 12:27:00,501 - Producer - INFO : Producer script execution finished.
+2023-09-12 12:27:00,505 - Consumer - INFO : Starting the consumer...
+2023-09-12 12:27:00,526 - Consumer - INFO : Consumer instance created...
+2023-09-12 12:27:05,738 - Consumer - INFO : Message received.
+2023-09-12 12:27:05,813 - Consumer - INFO : DataFrame created.
+2023-09-12 12:27:05,814 - Model - INFO : Starting predicting...
+2023-09-12 12:27:09,373 - Model - INFO : Model fitted.
+2023-09-12 12:28:05,334 - Model - INFO : Report performance metrics
+2023-09-12 12:28:05,335 - Model - INFO : MSE: 0.003
+2023-09-12 12:28:05,336 - Model - INFO : MAE: 0.036
+2023-09-12 12:28:05,336 - Model - INFO : RMSE: 0.052
+2023-09-12 12:28:05,336 - Model - INFO : MAPE: 0.027%
+2023-09-12 12:28:05,914 - Model - INFO : Prediction completed.
+2023-09-12 12:28:05,918 - Consumer - INFO : Message acknowledged.
+2023-09-12 12:28:06,388 - Consumer - INFO : Consumer script execution finished.
+2023-09-12 12:28:06,389 - Send email - INFO : Starting sendMail...
+2023-09-12 12:28:06,391 - Send email - INFO : Attached image: C:/Users/pc/Desktop/ILHAM_NACHOUR_ENSAH_realtime_2023_3dsf_commun/images/close_values_with_prediction.png
+2023-09-12 12:28:13,165 - Send email - INFO : Email sent successfully!
+2023-09-12 12:28:13,166 - Send email - INFO : Email sent from nachily4038@gmail.com, to ilham.nachour@gmail.com
+2023-09-12 12:28:13,166 - Send email - INFO : Email script execution finished.
+2023-09-12 12:28:13,167 - Main - INFO : Main script execution finished.
+2023-09-12 12:28:13,167 - Main - INFO : Have a great day!
+2023-09-12 12:51:11,897 - Main - INFO : Starting the main program...
+2023-09-12 12:51:11,898 - Main - INFO : Loading configurations.
+2023-09-12 12:51:11,900 - Main - INFO : Configurations Loaded
+2023-09-12 12:51:11,901 - Producer - INFO : Starting the producer...
+2023-09-12 12:51:13,838 - Data Preprocessing - INFO : Processing data completed. Data is ready
+2023-09-12 12:51:13,994 - Producer - INFO : A message to the Kafka topic produced.
+2023-09-12 12:51:20,066 - Producer - INFO : Message delivered to topic_0 [2]
+2023-09-12 12:51:20,066 - Producer - INFO : Message delivered to topic_0 [2]
+2023-09-12 12:51:20,067 - Producer - INFO : Producer script execution finished.
+2023-09-12 12:51:20,067 - Producer - INFO : Producer script execution finished.
+2023-09-12 12:51:20,073 - Consumer - INFO : Starting the consumer...
+2023-09-12 12:51:20,137 - Consumer - INFO : Consumer instance created...
+2023-09-12 12:51:26,322 - Consumer - INFO : Message received.
+2023-09-12 12:51:26,391 - Consumer - INFO : DataFrame created.
+2023-09-12 12:51:26,392 - Model - INFO : Starting predicting...
+2023-09-12 12:51:35,176 - Model - INFO : Model fitted.
+2023-09-12 12:53:29,059 - Model - INFO : Report performance metrics
+2023-09-12 12:53:29,059 - Model - INFO : MSE: 0.003
+2023-09-12 12:53:29,060 - Model - INFO : MAE: 0.036
+2023-09-12 12:53:29,061 - Model - INFO : RMSE: 0.052
+2023-09-12 12:53:29,062 - Model - INFO : MAPE: 0.027%
+2023-09-12 12:53:30,231 - Model - INFO : Prediction completed.
+2023-09-12 12:53:30,240 - Consumer - INFO : Message acknowledged.
+2023-09-12 12:53:30,698 - Consumer - INFO : Consumer script execution finished.
+2023-09-12 12:53:30,699 - Send email - INFO : Starting sendMail...
+2023-09-12 12:53:30,702 - Send email - INFO : Attached image: C:/Users/pc/Desktop/ILHAM_NACHOUR_ENSAH_realtime_2023_3dsf_commun/images/close_values_with_prediction.png
+2023-09-12 12:53:37,636 - Send email - INFO : Email sent successfully!
+2023-09-12 12:53:37,637 - Send email - INFO : Email sent from nachily4038@gmail.com, to ilham.nachour@gmail.com
+2023-09-12 12:53:37,637 - Send email - INFO : Email script execution finished.
+2023-09-12 12:53:37,637 - Main - INFO : Main script execution finished.
+2023-09-12 12:53:37,637 - Main - INFO : Have a great day!
+2023-09-12 13:02:38,976 - Main - INFO : Starting the main program...
+2023-09-12 13:02:38,977 - Main - INFO : Loading configurations.
+2023-09-12 13:02:38,978 - Main - INFO : Configurations Loaded
+2023-09-12 13:02:38,979 - Producer - INFO : Starting the producer...
+2023-09-12 13:02:40,662 - Data Preprocessing - INFO : Processing data completed. Data is ready
+2023-09-12 13:02:40,815 - Producer - INFO : A message to the Kafka topic produced.
+2023-09-12 13:02:45,018 - Producer - INFO : Message delivered to topic_0 [2]
+2023-09-12 13:02:45,018 - Producer - INFO : Message delivered to topic_0 [2]
+2023-09-12 13:02:45,020 - Producer - INFO : Producer script execution finished.
+2023-09-12 13:02:45,020 - Producer - INFO : Producer script execution finished.
+2023-09-12 13:02:45,025 - Consumer - INFO : Starting the consumer...
+2023-09-12 13:02:45,086 - Consumer - INFO : Consumer instance created...
+2023-09-12 13:02:53,776 - Consumer - INFO : Message received.
+2023-09-12 13:02:53,926 - Consumer - INFO : DataFrame created.
+2023-09-12 13:02:53,927 - Model - INFO : Starting predicting...
+2023-09-12 13:03:02,828 - Model - INFO : Model fitted.
+2023-09-12 13:04:53,159 - Model - INFO : Report performance metrics
+2023-09-12 13:04:53,159 - Model - INFO : MSE: 0.003
+2023-09-12 13:04:53,164 - Model - INFO : MAE: 0.036
+2023-09-12 13:04:53,164 - Model - INFO : RMSE: 0.052
+2023-09-12 13:04:53,164 - Model - INFO : MAPE: 0.027%
+2023-09-12 13:04:54,076 - Model - INFO : Prediction completed.
+2023-09-12 13:04:54,089 - Consumer - INFO : Message acknowledged.
+2023-09-12 13:04:54,763 - Consumer - INFO : Consumer script execution finished.
+2023-09-12 13:04:54,764 - Send email - INFO : Starting sendMail...
+2023-09-12 13:04:54,769 - Send email - INFO : Attached image: C:/Users/pc/Desktop/ILHAM_NACHOUR_ENSAH_realtime_2023_3dsf_commun/images/close_values_with_prediction.png
+2023-09-12 13:04:56,953 - Send email - INFO : Email sent successfully!
+2023-09-12 13:04:56,954 - Send email - INFO : Email sent from nachily4038@gmail.com, to ilham.nachour@gmail.com
+2023-09-12 13:04:56,954 - Send email - INFO : Email script execution finished.
+2023-09-12 13:04:56,954 - Main - INFO : Main script execution finished.
+2023-09-12 13:04:56,955 - Main - INFO : Have a great day!
+2023-09-12 14:52:05,472 - Main - INFO : Starting the main program...
+2023-09-12 14:52:05,473 - Main - INFO : Loading configurations.
+2023-09-12 14:52:05,475 - Main - INFO : Configurations Loaded
+2023-09-12 14:52:05,476 - Producer - INFO : Starting the producer...
+2023-09-12 14:52:09,006 - Data Preprocessing - INFO : Processing data completed. Data is ready
+2023-09-12 14:52:09,101 - Producer - INFO : A message to the Kafka topic produced.
+2023-09-12 14:54:47,366 - Main - INFO : Starting the main program...
+2023-09-12 14:54:47,368 - Main - INFO : Loading configurations.
+2023-09-12 14:54:47,368 - Main - INFO : Configurations Loaded
+2023-09-12 14:54:47,369 - Producer - INFO : Starting the producer...
+2023-09-12 14:54:48,686 - Data Preprocessing - INFO : Processing data completed. Data is ready
+2023-09-12 14:54:48,766 - Producer - INFO : A message to the Kafka topic produced.
+2023-09-12 14:57:09,609 - Producer - ERROR : Message delivery failed: KafkaError{code=_MSG_TIMED_OUT,val=-192,str="Local: Message timed out"}
+2023-09-12 14:57:09,609 - Producer - ERROR : Message delivery failed: KafkaError{code=_MSG_TIMED_OUT,val=-192,str="Local: Message timed out"}
+2023-09-12 14:57:09,613 - Producer - INFO : Producer script execution finished.
+2023-09-12 14:57:09,613 - Producer - INFO : Producer script execution finished.
+2023-09-12 14:57:09,629 - Consumer - INFO : Starting the consumer...
+2023-09-12 14:57:09,720 - Consumer - INFO : Consumer instance created...
+2023-09-12 14:59:49,088 - Producer - ERROR : Message delivery failed: KafkaError{code=_MSG_TIMED_OUT,val=-192,str="Local: Message timed out"}
+2023-09-12 14:59:49,088 - Producer - ERROR : Message delivery failed: KafkaError{code=_MSG_TIMED_OUT,val=-192,str="Local: Message timed out"}
+2023-09-12 14:59:49,089 - Producer - INFO : Producer script execution finished.
+2023-09-12 14:59:49,089 - Producer - INFO : Producer script execution finished.
+2023-09-12 14:59:49,095 - Consumer - INFO : Starting the consumer...
+2023-09-12 14:59:49,154 - Consumer - INFO : Consumer instance created...
+2023-09-12 15:00:54,433 - Main - INFO : Starting the main program...
+2023-09-12 15:00:54,435 - Main - INFO : Loading configurations.
+2023-09-12 15:00:54,437 - Main - INFO : Configurations Loaded
+2023-09-12 15:00:54,438 - Producer - INFO : Starting the producer...
+2023-09-12 15:00:55,863 - Data Preprocessing - INFO : Processing data completed. Data is ready
+2023-09-12 15:00:55,940 - Producer - INFO : A message to the Kafka topic produced.
+2023-09-12 15:05:56,771 - Producer - ERROR : Message delivery failed: KafkaError{code=_MSG_TIMED_OUT,val=-192,str="Local: Message timed out"}
+2023-09-12 15:05:56,771 - Producer - ERROR : Message delivery failed: KafkaError{code=_MSG_TIMED_OUT,val=-192,str="Local: Message timed out"}
+2023-09-12 15:05:56,773 - Producer - INFO : Producer script execution finished.
+2023-09-12 15:05:56,773 - Producer - INFO : Producer script execution finished.
+2023-09-12 15:05:56,782 - Consumer - INFO : Starting the consumer...
+2023-09-12 15:05:56,851 - Consumer - INFO : Consumer instance created...
+2023-09-13 12:39:26,678 - Main - INFO : Starting the main program...
+2023-09-13 12:39:26,678 - Main - INFO : Loading configurations.
+2023-09-13 12:39:26,678 - Main - INFO : Configurations Loaded
+2023-09-13 12:39:26,678 - Producer - INFO : Starting the producer...
+2023-09-13 12:39:28,312 - Data Preprocessing - INFO : Processing data completed. Data is ready
+2023-09-13 12:39:28,430 - Producer - INFO : A message to the Kafka topic produced.
+2023-09-13 12:44:29,104 - Producer - ERROR : Message delivery failed: KafkaError{code=_MSG_TIMED_OUT,val=-192,str="Local: Message timed out"}
+2023-09-13 12:44:29,104 - Producer - ERROR : Message delivery failed: KafkaError{code=_MSG_TIMED_OUT,val=-192,str="Local: Message timed out"}
+2023-09-13 12:44:29,105 - Producer - INFO : Producer script execution finished.
+2023-09-13 12:44:29,105 - Producer - INFO : Producer script execution finished.
+2023-09-13 12:44:29,113 - Consumer - INFO : Starting the consumer...
+2023-09-13 12:44:29,173 - Consumer - INFO : Consumer instance created...
